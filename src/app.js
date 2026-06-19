@@ -24,7 +24,11 @@ app.get('/notes', (req, res) => {
     })
 })
 
+/* delete /notes/:index */
 
+app.delete('notes/index', (req, res) => {
+    
+})
 
 
 module.exports = app
